@@ -49,7 +49,5 @@ def filter_transactions(transactions, criteria):
 			print(detail)
 		elif detail["amount"] >= 100:
 			print(detail)
-	return detail 
-result = filter_transactions(transactions, {"amount":100})
-print(result)
+result = filter_transactions(transactions, {"amount": 100})
 
